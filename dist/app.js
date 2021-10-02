@@ -18,4 +18,4 @@ app.use("/otp", otpRoute_1.default);
 app.use((err, req, res, next) => {
     res.status(500).json({ message: err.message });
 });
-app.listen(8080);
+app.listen(5000);
